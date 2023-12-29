@@ -8,12 +8,13 @@ public class TwelthMark extends TenthMark {
 				"\n"+"HSC Maths mark = "+Maths+"\n"+"HSC Science Mark = "+Sceince+"\n"+
 				"HSC Social Mark = "+Social);
 		super.mark(56, 66, 46, 77, 57);
+		this.mark(350);
 		}
 
 	@Override
 	public void mark(int totalmark) {
 		System.out.println("Total mark in HSC= "+totalmark);
-		super.mark(56+66+46+77+57);
+		super.mark(444);
 	}
 
 	
@@ -21,7 +22,7 @@ public class TwelthMark extends TenthMark {
 	public static void main(String[] args) {
 		TwelthMark tm=new TwelthMark();
 		tm.mark(75, 99, 56, 87, 66);
-		tm.mark(75+96+56+87+66);
+		
 		
 	}
 
